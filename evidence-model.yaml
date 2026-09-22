@@ -1,0 +1,27 @@
+product_security_evidence:
+  product:
+    name: fictional-controller
+    version: "1.0"
+    intended_use: "training example only"
+  artifacts:
+    - type: threat_model
+      owner: security_architecture
+      status: required
+    - type: security_requirements
+      owner: product_engineering
+      status: required
+    - type: sbom
+      owner: build_release
+      status: required
+    - type: security_verification
+      owner: verification
+      status: required
+    - type: vulnerability_management_plan
+      owner: product_security
+      status: required
+    - type: secure_update_design
+      owner: platform_architecture
+      status: required
+    - type: end_of_life_plan
+      owner: product_management
+      status: required
